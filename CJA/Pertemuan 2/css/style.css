@@ -1,0 +1,70 @@
+/* ini style untuk semua (*) */
+* {
+    margin: 0;
+    /* background: peachpuff; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ini style untuk body */
+body {
+    margin: 0;
+    background: peachpuff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-style: bold;
+    color:mediumaquamarine;
+    text-align: center;
+}
+
+li {
+    /* padding: 0px 9px 10px 3px; */
+    padding: 15px;
+    margin: 8px;
+    border-radius: 10px;
+    list-style: none;
+    display: inline-block;
+    background: tan;
+    /* x y tebal bayangan */
+    box-shadow: 7px 4px 6px  whitesmoke;
+}
+
+/* (objectnya):hover 
+ini untuk style effect menu
+*/
+li:hover {
+    background: mediumaquamarine;
+    transition: 0.5s;
+}
+
+/* untuk paragraf */
+p {
+    color: brown;
+    font-size: 20px;
+}
+
+/* bagian custom dengan menggunakan class */
+.container {
+    width: 97%; /* percent ini yang buat responsive */
+    margin: 5px;
+    /* background: pink; */
+    padding: 10px;
+    /* float: left; ini bagian positioning content */
+}
+
+/* #ini-id {} 
+class = seluruh id
+id = satu objek
+*/
+
+/* bagian css custom menggunakan id */
+#aktif {
+    background: burlywood;
+}
+
+/* ini untuk tag link
+biar ga ada garis bawahnya */
+a {
+    text-decoration: none;
+}
